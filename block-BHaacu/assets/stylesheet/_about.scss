@@ -1,0 +1,179 @@
+.about{
+    text-align: center;
+    background-color: $primary;
+    color: white;
+    padding: 4rem ;
+    h3{
+        font-size: 3rem;
+        font-weight: 700;
+        padding-bottom: 1.5rem;
+    }
+}
+.vision{
+    width: 70%;
+    height: 70%;
+}
+.fa-eye{
+    font-size: 3rem;
+    
+}
+.col-49{
+    flex: 0 1 50%;
+}
+.col-33{
+    flex: 0 1 33%;
+}
+.col-64{
+    flex: 0 1 60%;
+    h6{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    p{
+        color: $secondary;
+        margin-bottom: 1rem;
+    }
+}
+.team{
+    p{
+        color: black;
+    }
+}
+.team-flex{
+    box-shadow: 3px 3px 3px 3px rgba(177, 176, 176, 0.8);
+}
+.col-22{
+    flex: 0 1 22%;
+    
+    h6{
+        margin: 1rem 0;
+        font-weight: 600;
+    }
+    p{
+        margin-top: 0;
+        font-size: 0.7rem;
+        color: $primary;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav{
+        display: none;
+    }
+    
+    #toggle:checked~ .nav{
+        display: inline-block;
+        color: white;
+    }
+    .bars{
+        z-index: 99;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        li{
+            a{
+                color: white;
+                font-size: 1rem;
+            }
+        }
+        
+    }
+    .nav li{
+        margin-left: 0;
+        margin: 10px 0;
+        color: white;
+    }
+    .header-logo{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        display: inline-block;
+        border-radius: 6px;
+        background-color: $primary;
+        padding: 0.2rem 0.3rem;
+        color: white;
+        cursor: pointer;
+    }
+    .nav{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        background-color:rgba(70, 42, 34, 0.9);
+        padding-top: 100px;
+        
+        z-index: 95;
+        
+
+    }
+    .submenu{
+        left: 50%;
+    }
+    .container{
+        padding: 1rem;
+    }
+    .container1{
+        margin: 1rem;
+    }
+    .container2{
+        padding: 1rem;
+    }
+    .flex-wrap{
+        flex-wrap: wrap;
+        
+    }
+    .col-47{
+        flex: 0 1 100%;
+        
+    }
+    .resp{
+        flex: 0 1 100%;
+    }
+    .container3{
+        margin: 0 auto;
+    }
+    .team-flex{
+        flex: 0 1 100%;
+        margin-bottom: 2rem;
+    }
+    .footer-22{
+        flex: 0 1 50%;
+        margin-bottom: 1rem;
+    }
+    .hero{
+        position: absolute;
+        top: 1.5rem;
+        h1{
+            font-size: 1rem;
+        }
+    }
+    .col-32{
+        flex: 0 1 100%;
+        margin-bottom: 1rem;
+    }
+    .col-47{
+        flex: 0 1 100%;
+    }
+    .brands{
+        display: inline-block;
+        text-align: center;
+        padding: 14px;
+        img{
+            width: 100%;
+        }
+    }
+    .brand{
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+}
+
+
