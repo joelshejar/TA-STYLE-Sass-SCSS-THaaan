@@ -1,0 +1,30 @@
+.includes{
+    border: 1px solid rgb(226, 225, 225);
+    background-color: white;
+    border-radius: 6px;
+}
+.col-30{
+    flex: 0 1 30%;
+    padding: 1rem;
+    h6{
+        margin-bottom: 0.7rem;
+    }
+}
+.col-49{
+    flex: 0 1 49%;
+    h5{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    p{
+        color: $secondary;
+        margin: 1rem 0;
+        font-size: 0.8rem;
+    }
+}
+
+.rando{
+    margin-bottom: 1rem;
+    border: 1px solid rgb(196, 195, 195);
+    padding: 1rem;
+}

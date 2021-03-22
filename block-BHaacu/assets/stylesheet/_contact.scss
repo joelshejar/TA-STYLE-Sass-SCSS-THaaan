@@ -1,0 +1,66 @@
+.contact{
+    box-shadow: none;
+    border: none;
+    align-items: center;
+    div{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        background-color: rgb(224, 222, 222);
+        i{
+            color: $primary;
+            font-size: 1.7rem;
+        }
+    }
+    h6{
+        margin: 1rem 0;
+        font-weight: 600;
+    }
+    a{
+        color: $tertiary;
+    }
+    
+}
+.contact-section .message-form{
+    height: auto; 
+    width: 500px;
+    
+}
+.contact-section fieldset {
+    width: 480px;
+    padding: 20px 20px;
+}
+.contact-section .name{
+    display: block;
+    width: 94.5%;
+    border: 1px solid black;
+    outline: 0;
+    color: black;
+    padding: 10px;
+    margin-bottom: 9px;
+    background-color:transparent;
+}
+.message{
+    display: block;
+    width: 94.5%;
+    border: 1px solid black;
+    outline: 0;
+    padding: 10px;
+    margin-bottom: 9px;
+    background-color: #EFEFEF;
+}
+.contact-section iframe{
+    width: 50%;
+    height: 300px;
+    margin-right: 1rem;
+}
+.map{
+    font-size: 0;
+}
+.myself-hi {
+    height: 60vh;
+    width: 50%;
+}
+.contact-section{
+    height: 60vh;
+}
