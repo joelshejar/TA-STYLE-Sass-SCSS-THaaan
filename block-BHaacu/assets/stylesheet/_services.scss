@@ -1,0 +1,37 @@
+.best-services{
+    align-items: flex-start;
+    h6{
+        color: $primary;
+    }
+}
+.products{
+    p{
+        color: $secondary;
+    }
+}
+.our-products{
+    
+    img{
+        width: 15%;
+    }
+    h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
+.best-deals{
+    background-color: $primary;
+    color: white;
+    .vertical{
+        width: 1px;
+        height: 1.7rem;
+        background-color: white;
+        margin: 0 1rem;
+    }
+    .btn{
+        border: 1px solid white;
+    }
+}
